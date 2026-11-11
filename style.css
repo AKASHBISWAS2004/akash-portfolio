@@ -2,3 +2,22 @@
 @media(max-width:900px){.nav-links{gap:17px}.hero{gap:20px}.skills-grid{grid-template-columns:repeat(2,1fr)}.about-layout{gap:35px}.quick-strip>div{padding:17px 13px}.quick-strip strong{font-size:11px}}
 @media(max-width:680px){.container{width:min(100% - 34px,540px)}.nav{height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:18px 24px 24px;background:#0e1728;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:12px 4px}.nav-contact{margin-top:8px;text-align:center}.hero{grid-template-columns:1fr;padding-top:65px;padding-bottom:55px;gap:25px}.hero h1{font-size:58px}.hero-visual{min-height:390px}.profile-card{width:290px}.orbit{width:320px;height:220px}.chip-html{left:0}.chip-python{right:0}.visual-caption{bottom:-3px}.hero-meta{margin-top:30px}.quick-strip{grid-template-columns:1fr;margin-bottom:10px}.quick-strip>div{padding:14px 18px}.quick-strip>div+div{border-left:0;border-top:1px solid var(--line)}.section{padding-top:70px;padding-bottom:70px}.about-layout{grid-template-columns:1fr;gap:28px}.about-lead p{font-size:22px}.skills-grid{gap:10px}.skill-card{padding:18px 14px}.skill-card p{min-height:75px}.timeline-item{grid-template-columns:1fr;gap:8px}.timeline-date{padding-left:0}.timeline-top{display:block}.work-type{display:inline-block;margin-bottom:12px}.education-grid,.projects-grid{grid-template-columns:1fr}.contact-section{padding:70px 0}.contact-inner{grid-template-columns:1fr;gap:30px}.footer-inner{flex-wrap:wrap;gap:12px}.footer-inner p{order:3;width:100%;margin:0}.mobile-break{display:block}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+.profile-avatar {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #50dcca;
+    margin: auto;
+    background: #203b59;
+    box-shadow: 0 0 25px rgba(80, 220, 202, 0.2);
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    display: block;
+}
