@@ -4,7 +4,7 @@ A responsive, static HTML/CSS/JavaScript portfolio designed for free deployment 
 
 ## Before publishing
 1. Open `index.html`.
-2. In the Contact section, replace `your-email@example.com` with the email address you want to make public.
+2. In the Contact section, replace `akashbiswas504755@gmail.com` with the email address you want to make public.
 3. Add your real LinkedIn and GitHub profile URLs.
 4. Replace the two project placeholder cards with projects you have actually completed.
 5. If you want a real profile photo, add it to `assets/` and replace the initials avatar in `index.html`.
